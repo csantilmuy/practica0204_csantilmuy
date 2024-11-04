@@ -3,5 +3,11 @@
 # usuario la nota que ha sacado en cada asignatura y elimine de la lista las
 # asignaturas aprobadas. Al final el programa debe mostrar por pantalla las
 # asignaturas que el usuario tiene que repetir.
-asignaturas = list("Matemáticas", "Física", "Química", "Historia", "Lengua")
-aprobadas = input("Nota sacada en ")
+asignaturas = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
+repetir = []
+for asignatura in asignaturas:
+    nota = float(input(f"Nota sacada en {asignatura}: "))
+    if nota < 5:
+        repetir.append(asignatura)
+if repetir:
+    print("Asignaturas a repetir:" , ", ".join(repetir))
