@@ -3,3 +3,5 @@
 # usuario la nota que ha sacado en cada asignatura y elimine de la lista las
 # asignaturas aprobadas. Al final el programa debe mostrar por pantalla las
 # asignaturas que el usuario tiene que repetir.
+asignaturas = list("Matemáticas", "Física", "Química", "Historia", "Lengua")
+aprobadas = input("Nota sacada en ")

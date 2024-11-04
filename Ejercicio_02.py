@@ -3,6 +3,5 @@
 # por pantalla el mensaje: Yo estudio <asignatura>, donde <asignatura> es cada
 # una de las asignaturas de la lista.
 asignaturas = ("Matemáticas", "Física", "Química", "Historia", "Lengua")
-for i in range(0,4)
-print("Yo estudio" + (asignaturas) + ", donde" + (asignaturas) + 
-      "es cada una de las asignaturas de la lista")
+for i in range(1, 2, 3, 4):
+print("Yo estudio" + (asignaturas) + ", donde" + (asignaturas) + "es algo"
